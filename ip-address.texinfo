@@ -1,0 +1,79 @@
+\input texinfo
+@setfilename ip-address.info
+
+@titlepage
+@title ip-address
+@end titlepage
+
+@contents
+
+@ifnottex
+@node Top
+@top ip-address
+
+This manual is for ip-address 0.1.0
+@end ifnottex
+
+@menu
+* Usage::
+* License::
+* Index::
+@end menu
+
+@node Usage
+@chapter Usage
+
+@cindex Usage
+
+ip-address is an Emacs package for looking up your IP address.
+
+@section ip-address
+
+@cindex ip-address
+
+@findex ip-address
+
+@kindex ip-address
+
+@kbd{M-x ip-address} will do an IP address lookup.
+
+This is accomplished by getting the contents of
+@code{https://html.duckduckgo.com/html?q=ip%20address}, extracting the
+IP address information and displaying it in the minibuffer.
+
+@node License
+@appendix License
+
+@cindex License
+
+Copyright @copyright{} 2020 Sean Hutchings
+
+@paragraphindent none
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+@paragraphindent none
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+@node Index
+@unnumbered Index
+
+@section Concept Index
+
+@printindex cp
+
+@section Keystroke Index
+
+@printindex ky
+
+@section Function Index
+
+@printindex fn
+
+@bye
