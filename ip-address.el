@@ -6,7 +6,7 @@
 ;; Maintainer: Sean Hutchings <seanhut@yandex.com>
 ;; Created: 2020-11-23
 ;; Keywords: comm
-;; Version: 0.1.0
+;; Version: 0.1.1
 ;; Homepage: https://github.com/sean-hut/ip-address
 ;; License: BSD Zero Clause License (0BSD)
 
