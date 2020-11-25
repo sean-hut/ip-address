@@ -23,6 +23,8 @@ This project uses the [ISO 8601 date format][iso] of (YYYY-MM-DD).
 
 ## [Unreleased]
 
+## [0.1.1] - 2020-11-24
+
 ### Added
 - DOCUMENTATION.md
 
